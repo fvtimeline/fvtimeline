@@ -5,7 +5,10 @@
   line-height: 20px;
   margin-left: auto;
   margin-right: auto;
-  width: 70%;
+}
+
+@media (min-width: 700px) { 
+  #bottom { width: 70%; }
 }
 
 #faq {
